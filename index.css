@@ -1,0 +1,54 @@
+@import "~bootstrap/scss/bootstrap";
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+
+rect {
+  stroke: white;
+}
+text {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  fill: white;
+  font-size: 10px;
+}
+
+#legend {
+  display: flex;
+  flex-direction: column;
+}
+
+#treemap {
+  position: relative;
+}
+
+#tooltip {
+  background: #0009;
+  color: #fff;
+  padding: 0 7px;
+}
+
+#treemapWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#legend text {
+  fill: #000;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 span {
+  font-size: 1.3rem;
+}
